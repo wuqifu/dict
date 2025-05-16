@@ -107,7 +107,7 @@ function writeFile(fileName){
         {encoding: 'utf-8'},
         err => {
             if (err) {
-                log(err)
+                console.log(err)
             } else {
                 console.log('save file success')
             }
